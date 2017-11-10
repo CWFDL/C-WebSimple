@@ -17,8 +17,9 @@ public partial class login : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        string strConnection = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + "G:\\git\\C-WebSimple\\1111\\db\\shoppingonlinec2015110250.mdb";
-            myConn = new OleDbConnection(strConnection);
+        string strConnection = "Provider=Microsoft.Jet.OleDb.4.0;" + "Data Source=" + Server.MapPath("db/shoppingonlinec2015110250.mdb");
+        //"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + "G:\\git\\C-WebSimple\\1111\\db\\shoppingonlinec2015110250.mdb";
+        myConn = new OleDbConnection(strConnection);
     }
 
     protected void Button3_Click(object sender, EventArgs e)
