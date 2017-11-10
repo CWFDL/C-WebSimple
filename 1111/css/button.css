@@ -1,0 +1,60 @@
+﻿body,td,th {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+#Button3
+{
+    color:#FFF;
+  background-color:#09F;
+  border-color: #EEE;
+  font-weight:bold;
+  font-size: 20px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  height: 35px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
+
+#Button1
+{
+    color:#FFF;
+  background-color:#09F;
+  border-color: #EEE;
+  font-weight:bold;
+  font-size: 20px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 30px;
+  height: 35px;
+  padding: 0 40px;
+  margin: 0;
+  display: inline-block;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-property: all;
+          transition-property: all;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+}
