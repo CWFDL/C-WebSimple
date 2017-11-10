@@ -17,7 +17,7 @@ public partial class login : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        string strConnection = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + "G:\\1111\\db\\shoppingonlinec2015110250.mdb";
+        string strConnection = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + "G:\\git\\C-WebSimple\\1111\\db\\shoppingonlinec2015110250.mdb";
             myConn = new OleDbConnection(strConnection);
     }
 
