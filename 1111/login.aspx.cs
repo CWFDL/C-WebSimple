@@ -28,24 +28,30 @@ public partial class login : System.Web.UI.Page
         username = TextBox1.Text;
         pwdee = TextBox2.Text;
 
-
-        string mySel = "select count(*)as iCount from [admin] where username='" + username + "'and pwd='" + pwdee + "'";
-
-        OleDbCommand myCmd = new OleDbCommand(mySel, myConn);
-        myCmd.Connection.Open();
-        OleDbDataReader Dr;
-        Dr = myCmd.ExecuteReader();
-        Dr.Read();
-        string Count = Dr["iCount"].ToString(); ;
-        Dr.Close();
-        if (Count != "0")
+        if (TextBox1.Text == "" || TextBox2.Text == "")
         {
-            Session["username"] = username;
-            Response.Redirect("centre.aspx");
+            Response.Write("<script lanuage=javascript>alert('帐号或者密码不能为空！！')</script>");
         }
         else
-            Response.Write("<script lanuage=javascript>alert('用户名或密码错误！');location='javascript:history.go(-1)'</script>");
+        {
+            string mySel = "select count(*)as iCount from [admin] where username='" + username + "'and pwd='" + pwdee + "'";
 
+            OleDbCommand myCmd = new OleDbCommand(mySel, myConn);
+            myCmd.Connection.Open();
+            OleDbDataReader Dr;
+            Dr = myCmd.ExecuteReader();
+            Dr.Read();
+            string Count = Dr["iCount"].ToString(); ;
+            Dr.Close();
+            if (Count != "0")
+            {
+                Session["username"] = username;
+                Response.Redirect("centre.aspx");
+            }
+            else
+                Response.Write("<script lanuage=javascript>alert('用户名或密码错误！');location='javascript:history.go(-1)'</script>");
+
+        }
         return;
     }
 }
