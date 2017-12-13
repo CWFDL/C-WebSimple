@@ -136,7 +136,7 @@ body,td,th {
   <tr><td colspan="7">&nbsp;</td></tr>
   
   <tr>
-    <td class="foot" colspan="7" align="center">15电子商务3班 郭嘉贤 2017-10-11&nbsp;  版权所有</td>
+    <td class="foot" colspan="7" align="center">WFD&nbsp;  版权所有</td>
   </tr>
   
   <tr><td colspan="7">&nbsp;</td></tr>

@@ -123,7 +123,7 @@ body,td,th {
    <tr><td colspan='4'><hr /></td></tr>
   
   <tr>
-    <td class="foot" colspan="4" align="center">15电子商务3班 郭嘉贤 2017-10-11&nbsp;  版权所有</td>
+    <td class="foot" colspan="4" align="center">WFD&nbsp;  版权所有</td>
   </tr>
   
     </form>

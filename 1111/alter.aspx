@@ -156,7 +156,7 @@ body,td,th {
   <tr><td colspan="5">&nbsp;</td></tr>
   
   <tr>
-    <td class="foot" colspan="5" align="center">15电子商务3班 郭嘉贤 2017-10-11  版权所有</td>
+    <td class="foot" colspan="5" align="center">WFD  版权所有</td>
   </tr>
   
   <tr><td colspan="5">&nbsp;</td></tr>
